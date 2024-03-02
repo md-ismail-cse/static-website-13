@@ -1,0 +1,148 @@
+/*==================================================
+			Bootstrap 3 Media Queries         
+==================================================*/
+
+/* Large Devices (Desktops & Laptops) */
+
+@media (min-width: 1200px) {
+    .navbar-brand {
+        width: 80%;
+    }
+}
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Code */
+}
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-fixed-top .site-nav-wrapper {
+        padding: 0 2px;
+    }
+
+    #footer-top [class*=col-] {
+        margin-bottom: 30px;
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        width: auto;
+    }
+}
+
+/* Extra Small Devices (Landscape Phones & Portrait Tablets) */
+
+@media (max-width: 767px) {
+    .navbar-fixed-top .site-nav-wrapper {
+        padding: 0 2px;
+    }
+
+    #footer-top [class*=col-] {
+        margin-bottom: 30px;
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        width: auto;
+    }
+
+    .footer-logo {
+        border: 0;
+    }
+
+    .footer-logo img {
+        width: auto;
+        border: 1px solid #ec971f;
+    }
+
+    section {
+        padding: 10px 0;
+    }
+
+    .categorie-banner {
+        margin-bottom: 10px;
+    }
+
+    section#banner,
+    .banner-item {
+        height: 400px;
+    }
+
+    .fashion-categorie-heading {
+        height: 250px;
+    }
+
+    #footer-top {
+        text-align: center;
+    }
+
+    .payment-getway,
+    .social-links {
+        text-align: center;
+    }
+
+}
+
+@media (max-width:640px) {
+    section {
+        background-attachment: initial;
+    }
+}
+
+/* Extra Small Devices (Portrait Phones & Smaller devices) */
+
+@media (max-width: 480px) {
+    .skitter-large img {
+        height: 350px !important;
+    }
+
+    .skitter {
+        height: 350px !important;
+    }
+
+    .label_skitter p {
+        padding: 20px 0;
+    }
+
+    .skitter .info_slide_dots {
+        bottom: 10px;
+    }
+
+    .product-item-thumbnail {
+        height: 230px;
+    }
+
+    .product-item-thumbnail img {
+        height: 224px;
+    }
+
+    .banner-item-inner h1 {
+        font-size: 30px;
+    }
+
+    section#banner,
+    .banner-item {
+        height: 300px;
+    }
+
+    .purchese-content h3 {
+        font-size: 20px;
+    }
+
+    .label_skitter h1,
+    .label_skitter h2,
+    .label_skitter h3 {
+        font-size: 25px;
+    }
+}
+
+/* Extra Small Devices (Portrait Phones & Smaller devices) */
+
+@media (max-width: 320px) {
+    .label_skitter {
+        top: 40%;
+        -webkit-transform: translateY(-60%);
+        transform: translateY(-60%);
+    }
+}
